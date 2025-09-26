@@ -1,0 +1,221 @@
+$date
+	Thu Aug  7 15:46:29 2025
+$end
+
+$version
+	Synopsys VCS version U-2023.03-SP2-5_Full64
+$end
+
+$timescale
+	1s
+$end
+
+$comment Csum: 1 b027f7da55b89e1d $end
+
+
+$scope module tb_bist $end
+$var reg 1 ! start $end
+$var reg 1 " rst $end
+$var reg 1 # clk $end
+$var reg 1 $ csin $end
+$var reg 1 % rwbarin $end
+$var reg 1 & opr $end
+$var reg 6 ' address [5:0] $end
+$var reg 8 ( datain [7:0] $end
+$var reg 8 ) dataout [7:0] $end
+$var reg 1 * fail $end
+$var reg 32 + f [31:0] $end
+$var reg 8 , tmep [7:0] $end
+
+$scope task reset_bist $end
+$upscope $end
+
+
+$scope task normal_mode_write_read $end
+$upscope $end
+
+
+$scope task bist_test_run $end
+$upscope $end
+
+
+$scope task fail_injection_test $end
+$upscope $end
+
+
+$scope module uut $end
+$var reg 1 - start $end
+$var reg 1 . rst $end
+$var reg 1 / clk $end
+$var reg 1 0 csin $end
+$var reg 1 1 rwbarin $end
+$var reg 1 2 opr $end
+$var reg 6 3 address [5:0] $end
+$var reg 8 4 datain [7:0] $end
+$var reg 8 5 dataout [7:0] $end
+$var reg 1 6 fail $end
+$var reg 10 7 q [9:0] $end
+$var reg 1 8 NbarT $end
+$var reg 1 9 rwbar $end
+$var reg 1 : cs $end
+$var reg 6 ; mux_a_6bit [5:0] $end
+$var reg 8 < data_t [7:0] $end
+$var reg 1 = ld $end
+$var reg 1 > counter_cout $end
+$var reg 8 ? mux_d_8bit [7:0] $end
+$var reg 1 @ gt $end
+$var reg 1 A eq $end
+$var reg 1 B lt $end
+
+$scope module MUX_A $end
+$var reg 6 C normal_in [5:0] $end
+$var reg 6 D bist_in [5:0] $end
+$var reg 1 E NbarT $end
+$var reg 6 F out [5:0] $end
+$upscope $end
+
+
+$scope module dcdr_inst1 $end
+$var reg 3 G q [2:0] $end
+$var reg 8 H data_t [7:0] $end
+$upscope $end
+
+
+$scope module cntr_inst1 $end
+$var reg 10 I d_in [9:0] $end
+$var reg 1 J clk $end
+$var reg 1 K ld $end
+$var reg 1 L u_d $end
+$var reg 1 M cen $end
+$var reg 10 N q [9:0] $end
+$var reg 1 O cout $end
+$upscope $end
+
+
+$scope module MUX_D $end
+$var reg 8 P normal_in [7:0] $end
+$var reg 8 Q bist_in [7:0] $end
+$var reg 1 R NbarT $end
+$var reg 8 S out [7:0] $end
+$upscope $end
+
+
+$scope module cont_inst1l $end
+$var reg 1 T start $end
+$var reg 1 U rst $end
+$var reg 1 V clk $end
+$var reg 1 W cout $end
+$var reg 1 X NbarT $end
+$var reg 1 Y ld $end
+$var reg 1 Z state [0:0] $end
+$var reg 1 [ next_state [0:0] $end
+
+$scope begin FSM $end
+$upscope $end
+
+
+$scope begin next_state_logic $end
+$upscope $end
+
+$upscope $end
+
+
+$scope module sram_inst1 $end
+$var reg 6 \ ramaddr [5:0] $end
+$var reg 8 ] ramin [7:0] $end
+$var reg 1 ^ rwbar $end
+$var reg 1 _ clk $end
+$var reg 1 ` cs $end
+$var reg 8 a ramout [7:0] $end
+$var reg 6 b addr_reg [5:0] $end
+$upscope $end
+
+
+$scope module comp_init1 $end
+$var reg 8 c data_t [7:0] $end
+$var reg 8 d ramout [7:0] $end
+$var reg 1 e gt $end
+$var reg 1 f eq $end
+$var reg 1 g lt $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+xE
+xR
+x8
+xM
+0#
+xK
+xf
+xe
+xg
+xX
+xW
+xY
+1U
+0T
+x>
+xO
+x:
+0$
+xA
+0*
+x@
+x=
+xB
+0[
+0&
+1"
+x9
+1%
+x`
+x^
+0!
+xZ
+1L
+00
+06
+02
+1.
+11
+0-
+bxxxxxxxx Q
+b00000000 P
+bxxxxxxxx S
+bxxxxxx b
+b000000 '
+bxxxxxx D
+bxxxxxxxxxx N
+bxxxxxxxx c
+bxxxxxxxx d
+b0000000000 I
+bxxxxxxxx <
+b00000000 (
+bxxxxxxxx )
+bxxxxxxxx H
+bxxx G
+bxxxxxx ;
+bxxxxxxxx ?
+b000000 C
+bxxxxxx F
+bxxxxxxxxxx 7
+bxxxxxx \
+bxxxxxxxx ]
+bxxxxxxxx a
+bxxxxxxxx ,
+b000000 3
+b00000000 4
+bxxxxxxxx 5
+b00000000000000000000000000000000 +
+0/
+0J
+0V
+0_
+$end
