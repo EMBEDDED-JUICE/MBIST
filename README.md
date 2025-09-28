@@ -44,7 +44,7 @@ The top-level **BIST** module integrates the following blocks:
 
 ## 📂 Repository Structure
 ```
-MBIST_Project/
+MBIST/
 │
 ├── src/
 │   ├── comparator.sv
@@ -112,17 +112,12 @@ set_clock_latency 0.01 -source [get_ports clk]
 ## 🚀 Quick Start
 1. Clone this repo:
 ```bash
-git clone https://github.com/<your-username>/MBIST_Project.git
-cd MBIST_Project
+git clone https://github.com/EMBEDDED-JUICE/MBIST.git
+cd MBIST
 ```
 2. Compile & simulate using your preferred simulator.  
 3. Inspect waveforms for functional verification.  
 4. Synthesize using Design Compiler with `controller.sdc`.
-
----
-
-## 📄 License
-This project is released under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
 
